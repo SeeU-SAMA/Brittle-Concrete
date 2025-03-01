@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "brittle-concrete",
+	"version": "${version}",
+	"name": "Brittle Concrete",
+	"description": "A mod that makes concrete blocks easier to break.",
+	"authors": [
+		"SeeU_SAMA"
+	],
+	"contact": {
+		"sources": "https://github.com/SeeU-SAMA/Brittle-Concrete"
+	},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.seeusama.brittleconcrete.BrittleConcreteMod"
+		]
+	},
+	"mixins": [
+		"brittle-concrete.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"fabric-api": "*",
+		"minecraft": "1.21.x"
+	}
+}

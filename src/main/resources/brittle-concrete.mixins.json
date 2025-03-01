@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.seeusama.brittleconcrete.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"AbstractBlockMixin",
+		"AbstractBlockSettingsAccessor"
+	],
+	"client": [],
+	"server": [],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
